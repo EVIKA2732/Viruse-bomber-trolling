@@ -1,0 +1,16 @@
+* {
+			width:100%;
+			margin:0px;
+			padding:0px;
+			overflow: hidden;
+		}
+		#counter{
+			position: absolute;
+			top:50px;
+			width: 100%;
+			text-align: center;
+			font-size: 40em;
+			font-weight: bold;
+			color:red;
+			z-index: 666;
+		}
