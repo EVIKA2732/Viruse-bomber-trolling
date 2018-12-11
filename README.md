@@ -10,7 +10,7 @@ This script is just for educational purposes. To troll a friend, one person you 
  
  
  
- # More_Realistic
+ # More ~ Realistic
 
 To be more realistic, I had to include a scary text.
 
